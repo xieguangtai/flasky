@@ -10,3 +10,5 @@ question.txt
 # sqlite
 data.sqlite
 
+# pyc
+*.pyc
