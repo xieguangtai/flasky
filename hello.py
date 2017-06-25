@@ -4,7 +4,7 @@ from flask_bootstrap import Bootstrap
 from flask_moment import Moment
 from flask_wtf import FlaskForm
 from wtforms import StringField, SubmitField
-from wtforms import Required
+from wtforms.validators import Required
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'hard to guess string'
